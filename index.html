@@ -50,10 +50,10 @@
               const p = document.createElement("p");
               if (res.isFinal) {
                 p.classList.add("final");
-
-                p.appendChild(text);
-                result.appendChild(p);
               }
+
+              p.appendChild(text);
+              result.appendChild(p);
 
               wordsFinal = document.getElementsByClassName("final");
               if (wordsFinal.length >= 5) {
